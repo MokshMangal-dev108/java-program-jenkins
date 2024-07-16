@@ -7,5 +7,7 @@ public class Main{
         System.out.println("Hello");
         System.out.println(new Date());
         System.out.println(new Random());
+        Student s = new Student();
+        s.print();
     }
 }
